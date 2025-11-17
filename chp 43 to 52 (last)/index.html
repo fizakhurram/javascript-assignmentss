@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container" id="form-container">
+        <form action="" id="myform">
+            <label for="name">Name:<input type="text" id="name"></label> <br> <br>
+            <label for="Id">Id:<input type="text" id="id"></label><br> <br>
+            <label for="percentage">percentage:<input type="text" id="percentage"></label><br> <br>
+            <label for="contact">Contact no:<input type="text" id="contact"></label><br> <br>
+            <button type="submit" id="submit-btn">Submit</button>
+        </form>
+    </div>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Id</th>
+            <th>Percentage</th>
+            <th>Contact</th>
+            <th>Delete</th>
+            <th>Edit</th>
+        </tr>
+        <tr id="row1">
+            <td>fiza</td>
+            <td>201</td>
+            <td>90%</td>
+            <td>03032349033</td>
+            <td><button onclick="deleterow('row1')">Delete</button></td>
+            <td><button class="edit-btn" onclick="editData(this)">Edit</button></td>
+        </tr>
+        <tr id="row2">
+            <td>sadia</td>
+            <td>202</td>
+            <td>90%</td>
+            <td>03032349033</td>
+            <td><button onclick="deleterow('row2')">Delete</button></td>
+            <td><button class="edit-btn" onclick="editData(this)">Edit</button></td>
+        </tr>
+        <tr id="row3">
+            <td>maria</td>
+            <td>203</td>
+            <td>90%</td>
+            <td>0302349033</td>
+            <td><button onclick="deleterow('row3')">Delete</button></td>
+            <td><button class="edit-btn" onclick="editData(this)">Edit</button></td>
+        </tr>
+        <tr id="row4">
+            <td>iqra</td>
+            <td>204</td>
+            <td>90%</td>
+            <td>03032349033</td>
+            <td><button onclick="deleterow('row4')">Delete</button></td>
+            <td><button class="edit-btn" onclick="editData(this)">Edit</button></td>
+        </tr>
+    </table>
+    <script src="app.js"></script>
+</body>
+
+</html>

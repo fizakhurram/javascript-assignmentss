@@ -1,0 +1,139 @@
+/* Overall*/
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #74ABE2, #5563DE);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* q no 1___________ */
+.form-container {
+  background: white;
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  text-align: left;
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+label {
+  font-weight: 500;
+  color: #444;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+  border-color: #5563DE;
+  box-shadow: 0 0 6px rgba(85, 99, 222, 0.5);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #5563DE;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #3b46b8;
+}
+
+/* q no 2 */
+.para{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #dbc9c9;
+    color:black;
+    border-radius: 10%;
+    font-size: 25px;
+    padding: 20px;
+}
+.hidden-form{
+  display: none;
+}
+
+
+
+#Student-table {
+  /* width: 80%; */
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  border: 2px solid black;
+  color: black;
+}
+
+#Student-table th,
+#Student-table td {
+  border: 1px solid black;
+  padding: 8px 12px;
+  text-align: center;
+  width: 200px;
+}
+
+#Student-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+
+/* Delete button */
+.delete-btn {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Edit button */
+.edit-btn {
+  background-color: #5bc0de;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.delete-btn:hover {
+  background-color: #c9302c;
+}
+
+.edit-btn:hover {
+  background-color: #31b0d5;
+}
+

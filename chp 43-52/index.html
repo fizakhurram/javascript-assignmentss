@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Q no 1 -->
+     <!-- <div class="form-container">
+    <h2>Sign Up</h2>
+    <form action="">
+    <label for="fName">First Name:<input type="text" placeholder="Enter your Name" id="fName"></label> <br> <br>
+    <label for="LName">Last Name:<input type="text" placeholder="Enter your Name" id="LName"></label> <br> <br>
+    <label for="email">Email:<input type="email" placeholder="Enter your Email" id="email"></label> <br> <br>
+    <label for="password">Password:<input type="password" placeholder="Enter your Password" id="password"></label> <br> <br>
+    <button type="button" onclick="ShowData()">Submit</button></form></div> -->
+    <!-- Q no 2 -->
+     <!-- <div class="para">
+        <h1>What is Smit Program?</h1>
+        <p id="para">Saylani Mass IT Training is at the forefront of technical education, providing cutting-edge training in a range of programming skills, including Web and Mobile Application Development, CCNA, Graphics Designing, and Computer Based Accounting.</p>
+        <a href="javascript:void(0)" id="visible" onclick="Visible()">See more</a>
+     </div> -->
+     <!-- Q no 2 -->
+     <!-- <div class="para">
+        <h1>What is Smit Program?</h1>
+        <p id="para">Saylani Mass IT Training is at the forefront of technical education, providing cutting-edge training in a range of programming skills, including Web and Mobile Application Development, CCNA, Graphics Designing, and Computer Based Accounting.</p>
+        <a href="javascript:void(0)" id="visible" onclick="Visible()">See more</a>
+     </div>-->
+
+     <!-- Q no 3 -->
+      <div class="form-container hidden-form" id="hidden-form">
+        <form action="" id="myform">
+    <h2>Sign Up</h2>
+    <form action="">
+    <label for="name">Name:<input type="text" placeholder="Enter your Name" id="name"></label> <br> <br>
+    <label for="Id">Id:<input type="text" placeholder="Enter your roll no" id="id"></label> <br> <br>
+    <label for="class">Class:<input type="text" placeholder="Enter your class" id="class"></label> <br> <br>
+    <label for="Grade">Grade:<input type="text" placeholder="Enter your grade" id="grade"></label> <br> <br>
+    <label for="contact no">Contact no:<input type="number" placeholder="Enter your Contact number" id="contact"></label> <br> <br>
+    <button type="submit">Submit</button></form></div></form> 
+
+    <table id="Student-table" border="1">
+      <tr id="heading-row">
+        <th>Name</th>
+        <th>Id</th>
+        <th>Class</th>
+        <th>grade</th>
+        <th>Contact no</th>
+        <th>Delete</th>
+        <th>Edit</th>
+      </tr>
+      <tr id="student1">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button class="delete-btn" onclick="Deleterow('student1')">Delete</button></td>
+        <td><button class="edit-btn" onclick="editRow('student1')">Edit</button></td>
+      </tr>
+      <tr id="student2">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button class="delete-btn" onclick="Deleterow('student2')">Delete</button></td>
+        <td><button class="edit-btn" onclick="editRow('student2')">Edit</button></td>
+      </tr>
+      <tr id="student3">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button class="delete-btn" onclick="Deleterow('student3')">Delete</button></td>
+        <td><button class="edit-btn" onclick="editRow('student3')">Edit</button></td>
+      </tr>
+       <tr id="student4">
+        <td ></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button class="delete-btn" onclick="Deleterow('student4')">Delete</button></td>
+        <td><button class="edit-btn" onclick="editRow('student4')">Edit</button></td>
+      </tr>
+    </table>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
